@@ -6,7 +6,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile.prod
       args:
-        VITE_API_URL: http://159.203.110.29:3000
+        VITE_API_URL: http://159.203.110.29:3000 //CAMBIAR ESTA LINEA PORQUE EL SERVIDOR YA SE BORRO
     ports:
       - 80:80
     volumes:
